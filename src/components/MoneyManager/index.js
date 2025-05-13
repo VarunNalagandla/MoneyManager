@@ -170,6 +170,7 @@ class MoneyManager extends Component {
                     key={each.id}
                     transaction={each}
                     onDeleteTransaction={this.onDeleteTransaction}
+                    transactionTypeOptions={transactionTypeOptions}
                   />
                 ))}
               </ul>
