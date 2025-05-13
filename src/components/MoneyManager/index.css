@@ -1,0 +1,90 @@
+/* Write your CSS here */
+.app-container {
+  background-color: #ffffff;
+  min-height: 100vh;
+  font-family: 'Roboto';
+  padding: 20px;
+}
+
+.money-manager-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #ecfccb;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.title {
+  color: #1e293b;
+  margin-bottom: 5px;
+}
+
+.description {
+  color: #334155;
+}
+
+.highlight {
+  color: #84cc16;
+}
+
+.bottom-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-container,
+.transactions-container {
+  background-color: #ffffff;
+  padding: 20px;
+  border: 1px solid #d7dfe9;
+  border-radius: 12px;
+}
+
+.form-title {
+  color: #1e293b;
+  margin-bottom: 10px;
+}
+
+.label {
+  display: block;
+  color: #7e858e;
+  margin: 10px 0 5px;
+}
+
+.input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.add-btn {
+  margin-top: 15px;
+  background-color: #0b69ff;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.transactions-list {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.transaction-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #d7dfe9;
+  padding: 10px;
+  border-radius: 8px;
+  font-weight: bold;
+}
